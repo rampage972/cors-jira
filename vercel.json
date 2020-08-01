@@ -11,6 +11,6 @@ routes [{
         Access-Control-Allow-Headers X-Requested-With, Content-Type, Accept
     },
     src .,
-    dest index.js
+    dest server.js
 }]
 }
