@@ -26,7 +26,7 @@ cors_proxy.createServer({
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
   setHeaders: {
-     "User-Agent": "xxxxx"
+     "User-Agent": "RG",
   },
   removeHeaders: [
     'cookie',
