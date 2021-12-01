@@ -36,6 +36,7 @@ cors_proxy.createServer({
     'x-heroku-queue-depth',
     'x-heroku-dynos-in-use',
     'x-request-start',
+    'User-Agent'
   ],
   redirectSameOrigin: true,
   httpProxyOptions: {
